@@ -1,0 +1,659 @@
+/* ----------------------------------------max-width:1850px------------------------------------- */
+
+@media (max-width:1850px) {
+    .carousel {
+        height: 53vw;
+        padding: 0 0.833vw;
+    }
+    .carousel > ul{
+        width: 100vw;
+        height: 20vw;
+        display: flex;
+    }
+    .carousel li {
+        margin: 0 0.833%;
+        width: 22.9vw; 
+        height: 22vw;
+    }
+    .carousel img {
+        height: 11.45vw;          /* height: 220px; */
+        width: 22.9vw;           /* height: 440px; */
+        margin: 0 auto;
+    }
+    span .big-picture {
+        object-position: 40% 100%;
+    }
+    .carousel p {
+        width: 12.4vw;
+        font-size: clamp(0.625rem, 0.195rem + 0.98vw, 1.375rem);
+        margin-left: 0.52vw;
+    }
+    .btn-add-favorite p {
+        margin-top: 0.93vw;
+        margin-bottom: 0.52vw;
+        margin-left: 0.06vw;
+        width: 6.5vw;
+        font-size: clamp(0.25rem, -0.144rem + 0.9vw, 0.938rem);
+        line-height: 1.5;
+    }
+    .btn-add-favorite label {
+        height: 3.75vw;
+        width: 9.11vw;
+        margin-right: 0.52vw;
+        margin-bottom: 0.98vw;
+    }
+    .pin-area {
+        width: 2.60vw;
+        height: 2.60vw;
+        position: absolute;
+        margin: 0.52vw 0 0.52vw 19.50vw;
+        background-size: cover;
+    }
+    .btn-add-favorite input:checked+label {
+        box-shadow: none;
+        margin: 0;
+        margin-right: 0.52vw;
+        margin-bottom: 0.98vw;
+    }
+    .btn-add-favorite input:checked ~ .pin-area {
+        margin: 0;
+        margin: 0.52vw 0 0.52vw 19.50vw;
+    }
+    .view-details {
+        display: block;
+        margin: 20px auto;
+        line-height: 2.86vw;
+        font-size: clamp(1.25rem, 0.833rem + 0.56vw, 1.5rem);
+        height: 2.86vw;
+        width: 15.1vw;
+    }
+    header {
+        height: 175px;
+    }
+    .logo {
+        padding: 30px 0 30px 2.34%;
+    }
+    .header-right a {
+        font-size: 24px;
+        margin: 20px 20px;
+    }
+    .favorite-list {
+        height: 70px;
+        line-height: 70px;
+        margin: 20px 20px;
+    }
+    .slick-img img {
+        height: 100vh;
+        margin: auto;
+        max-height: 100%;
+        max-width: 100%;
+        object-fit: cover;
+        width: 100%;
+    }
+    .slick-dots li button::before {
+    font-size: 24px;
+    }
+    .slick-dots li {
+        padding-bottom: 20px;
+        width: 20px;
+    }
+    .search-wrapper p {
+        font-size: 16px;
+    }
+    .search-wrapper label {
+        font-size: 18px;
+    }
+    .body-type{
+        height: 15.9%;
+    }
+    .search-by-manufacturer-top-wrapper {
+    display: flex;
+    margin: 0 4.84% 35px 20px;
+    max-width: 100%;
+    box-sizing: border-box;
+    }
+    .pulldown-manufacturer label, .pulldown-body-type label {
+        width: 100px;
+        height: 36px;
+        font-size: 22px;
+        padding-left: 25px;
+    }
+    .pulldown-body-type label {
+        text-align: center;
+        padding-left: 0;
+    }
+    .pulldown-manufacturer select, .pulldown-body-type select {
+        margin-right: 0;
+    }
+    .search-by-manufacturer-middle-wrapper {
+        height: 200px;
+    }
+}
+
+/* ----------------------------------------max-width:1400px------------------------------------- */
+
+@media (max-width:1400px) {
+
+    h2 {
+        font-size: 36px;
+    }
+    .carousel li {
+        margin: 0 0.833%;
+        width: 22.9vw; 
+        height: 22vw;
+    }
+    .search-wrapper h3 {
+        font-size: 28px;
+    }
+    .search-wrapper-right {
+        margin-left: 10px;
+    }
+    .body-type{
+        height: 100px;
+    }
+    .body-type label {
+    background-size: 42px 72px;
+    height: 31px;
+    width: 30px;
+    }
+    .search-by-body-type .search-by-option .pulldown {
+        display: block;
+    }
+    .search-by-body-type .search-by-option .pulldown label {
+        text-align: start;
+        padding-left: 20px;
+        width: 110px;
+    }
+    .search-by-body-type .search-by-option .pulldown select {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .search-by-manufacturer-top-wrapper {
+        display: block;
+    }
+    .search-by-manufacturer-top-wrapper label {
+        text-align: center;
+        width: 130px;
+    }
+    .search-by-manufacturer-top-wrapper select {
+        margin-right: 0;
+    }
+    .pulldown-manufacturer label, .pulldown-body-type label {
+        text-align: start;
+        width: 110px;
+    }
+    .pulldown-manufacturer select {
+    margin-bottom: 20px;
+    }
+    .middle {
+        height: 60vw;
+    }
+    .search-by-manufacturer-middle-wrapper {
+        height: 165px;
+    }
+    .search-by-manufacturer-middle-wrapper p {
+        line-height: normal;
+    } 
+    .search-wrapper p {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .freeword-search-box input {
+        height:35px;
+    }
+    .news-wrapper {
+        width: 78.7%;
+    }
+    .news {
+        height: 5em;
+    }
+    .footer-left p {
+        font-size: 24px;
+    }
+    .address {
+        margin-right: 0px;
+    }
+}
+
+/* ----------------------------------------max-width:1200px------------------------------------- */
+
+@media (min-width:1200px) {
+    header .fa-bars {
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    .slick-slide img {
+        width: 100%;
+        height: 50vw;
+    }
+    .slick-slide-wrapper {
+        height: 50vw;
+    }
+    .slick-dots li button::before {
+        font-size: 16px;
+    }
+    .slick-dots li {
+        padding-bottom: 15px;
+        width: 15px;
+    }
+    .middle {
+        height: 80vw;
+    }
+    /*--------------------slider-2--------------------------------*/
+    .carousel > ul {
+        width: 500vw;
+        height: 20vw;
+    }
+    .carousel li {
+        margin: 0 0.7vw;
+        width: 31.5vw;
+        height: 28vw;
+    }
+    .carousel img {
+        height: 15.45vw;          /* height: 220px; */
+        width: 31vw;           /* height: 350px/1200px; */
+    }
+    .carousel p {
+        width: 17vw;
+        font-size: clamp(0.875rem, -0.054rem + 1.9vw, 1.375rem);
+        margin-left: 0.52vw;
+    }
+    .btn-add-favorite p {
+        margin-top: 0.93vw;
+        margin-bottom: 0.52vw;
+        margin-left: 0.06vw;
+        width: 8.0vw;
+        font-size: clamp(0.25rem, -0.144rem + 0.9vw, 0.938rem);
+        line-height: 1.2;
+    }
+    .btn-add-favorite label {
+        float: right;
+        height: 4.4vw/*53px*/;
+        width: 10.8vw/*130px*/;
+        margin-right: 0.52vw;
+        margin-bottom: 0.98vw;
+    }
+    .pin-area {
+        width: 3.00vw;
+        height: 3.00vw;
+        margin: 0.75vw 0 0.75vw 27.00vw;
+    }
+    .btn-add-favorite input:checked ~ .pin-area {
+        margin: 0;
+        margin: 0.75vw 0 0.75vw 27.00vw;
+    }
+    .btn-wrapper{
+        text-align: center;
+    }
+    .view-details {
+        display: inline-block;
+        height: 4.0vw;
+        line-height: 4.0vw;
+        width: 200px; /*15.1vw;*/
+        margin: 0 2.6vw;
+    }
+    header {
+        height: 150px;
+    }
+    .logo {
+        height: 82.5px;
+        line-height: 82.5px;
+        width: 202.5px;
+    }
+    .favorite-list {
+        height: 50px;
+        width: 200px;
+        line-height: 45px;
+        
+    }
+    .favorite-list a {
+        font-size: 18px;
+    }
+    .list-nav-header {
+        display: none;
+    }
+    header .fa-bars {
+        float: right;
+    }
+    .body-type label, .manufacturer label {
+        background-size: 28px 48px;
+        height: 21px;
+        line-height: 21px;
+        width: 20px;
+    }
+    .body-type select, .manufacturer select {
+        height: 21px;
+        line-height: 21px;
+        }
+    .btn-search-cars {
+        width: 273.75px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 27px;
+        background-size: 15px 24px;
+    }
+    .search-by-body-type .search-by-option label {
+        width: 110px;
+    }
+    .backnumber-list {
+        width: 273.75px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 27px;
+    }
+    .news-box-top {
+        height: 70px;
+    }
+    .address p {
+        font-size: 20px;
+    }
+}
+
+/* ----------------------------------------max-width:760px-------------------------------------- */
+
+@media (max-width:760px) {
+    h2 {
+        font-size: 26px;
+    }
+    .logo {
+        height: 55px;
+        width: 135px;
+    }
+    .slick-content p {
+        font-size: 2rem;
+    }
+    .slick-slide img {
+        width: 100%;
+        height: 60vw;
+    }
+    .slick-slide-wrapper {
+        height: 60vw;
+    }
+    .slick-dots li button::before {
+        font-size: 12px;
+        }
+    .slick-dots li {
+        padding-bottom: 10px;
+        width: 10px;
+    }
+    .middle {
+        height: 130vw;
+    }
+    /*--------------------slider-2--------------------------------*/
+    .carousel > ul {
+        width: 300vw;
+        height: 20vw;
+    }
+    .carousel li {
+        margin: 0 1.6vw;
+        width: 46vw;
+        height:43vw;
+    }
+    .carousel img {
+        height: 22vw;
+        width: 44vw;           /* width: 780px/340px; */
+    }
+    span .big-picture {
+        object-position: 60% 100%;
+    }
+    .carousel p {
+        width: 25vw;
+        font-size: clamp(0.875rem, -0.054rem + 1.9vw, 1.375rem);
+        margin-left: 0.52vw;
+    }
+    .btn-add-favorite p {
+        margin-top: 0.93vw;
+        margin-bottom: 0.52vw;
+        margin-left: 0.06vw;
+        width: 15.0vw;
+        font-size: clamp(0.25rem, -0.144rem + 0.9vw, 0.938rem);
+        line-height: 1.2;
+    }
+    .btn-add-favorite label {
+        float: right;
+        height: 8.0vw/*53px*/;
+        width: 18vw/*130px*/;
+        margin-right: 0.52vw;
+        margin-bottom: 0.98vw;
+    }
+    .pin-area {
+        width: 5.00vw;
+        height: 5.00vw;
+        margin: 1.5vw 0 1.5vw 39.00vw;
+    }
+    .btn-add-favorite input:checked ~ .pin-area {
+        margin: 0;
+        margin: 1.5vw 0 1.5vw 39.00vw;
+    }
+    .view-details {
+        display: inline-block;
+        height: 6.0vw;
+        line-height: 6.0vw;
+        width: 180px; 
+        margin: 0 5.0vw;
+    }
+    .search-wrapper {
+        display: block;
+    }
+    .search-wrapper-left h2, .search-by-manufacturer h2, .freeword-search h2 {
+        font-size: 24px;
+    }
+    .search-by-option h3, .search-by-manufacturer-bottom-wrapper h3 {
+        font-size: 22px;
+    }
+    .search-wrapper-left {
+        width: 100%;
+        height: 1000px;
+        margin-bottom: 30px;
+    }
+    .search-wrapper-right {
+        width: 100%;
+        margin-left: 0;
+    }
+    .freeword-search {
+        height: 250px;
+    }
+    .btn-search-cars {
+        width: 182.5px;
+        height: 37.5px;
+        line-height: 37.5px;
+        font-size: 16px;
+        background-size: 15px 24px;
+        background-position: right 18px center;
+    }
+    .backnumber-list {
+        width: 182.5px;
+        height: 37.5px;
+        line-height: 37.5px;
+        font-size: 18px;
+    }
+    .news {
+        font-size: 16px;
+    }
+    .footer-logo {
+        margin-left: 90px;
+        height: 80px;
+        width: 150px;
+    }
+    .address p, .address p span {
+        font-size: 14px;
+    }
+    .footer-left {
+        width: 60%;
+    }
+    .footer-right {
+        width: 40%;
+        border-left: solid 5px #406a7f;
+    }
+    .nav {
+        margin-top: 45px;
+        height: 120px;
+    }
+    .nav ul {
+        height: 240px;
+        margin-left: 4.48vw;
+    }
+    .nav li {
+        margin-bottom: 5px;
+    }
+    .nav a {
+        font-size: 12px;
+    }
+    .footer-logo, .address {
+        margin-left: 10vw;
+    }
+}
+
+/* ----------------------------------------max-width:480px-------------------------------------- */
+@media only screen and (max-width: 480px) {
+    header {
+        height: 130px;
+    }
+    .fa-bars {
+        top: 100px;
+        right: 60px;
+    }
+    .middle {
+    height: 210vw;
+    }
+    .middle-explanation {
+        font-size: 18px;
+    }
+    .favorite-list {
+        height: 50px;
+        line-height: 40px;
+        width: 130px;
+        margin: 20px 0;
+        border: 1px solid #fff;
+        background-position: right 6px center;
+        background-size: 10px 19px;
+
+    }
+    .favorite-list a{
+        font-size: 12px;
+    }
+    .carousel {
+    height: 120vw;
+    padding: 0 0.833vw;
+    }
+    .carousel > ul {
+        width: 400vw;
+        height: 5vw;
+    }
+    .carousel li {
+        margin: 0 4vw;
+        width: 150vw;
+        height: 90vw;
+    }
+    .carousel img {
+        height: 46vw;
+        width: 90vw;           /* width: 780px/340px; */
+        object-fit: contain;
+        object-position: 0% 100%;
+        margin: 0 auto;
+    }
+    .carousel p {
+        width: 50vw;
+        font-size: clamp(0.5rem, -0.958rem + 7.78vw, 1.375rem);
+        margin-left: 0.52vw;
+    }
+    .btn-add-favorite p {
+        margin-top: 3.8vw;
+        margin-bottom: 0.52vw;
+        margin-left: 0.06vw;
+        width: 25.0vw;
+        font-size: clamp(0.5rem, -0.542rem + 5.56vw, 1.125rem);
+        line-height: 1.2;
+    }
+    .btn-add-favorite label {
+        float: right;
+        height: 16vw/*53px*/;
+        width: 36vw/*130px*/;
+        margin-right: 2vw;
+        margin-bottom: 0.98vw;
+    }
+
+    .pin-area {
+        width: 10.0vw;
+        height: 10.0vw;
+        margin: 4.00vw 0 4.00vw 78vw;
+    }
+    .btn-add-favorite input:checked ~ .pin-area {
+        margin: 0;
+        margin: 4.00vw 0 4.00vw 79vw;
+    }
+    .view-details {
+        display: inline-block;
+        height: 12.0vw;
+        line-height: 12.0vw;
+        width: 37.5vw;
+        min-width: 170px;
+        margin: 7vw 20.0vw;
+    }
+    .pulldown-manufacturer select {
+        width: 160px;
+        margin-left: 0;
+    }
+    .search-by-manufacturer-bottom-wrapper select {
+        width: 160px;
+    }
+    .news-wrapper h2 {
+    margin-top: 0px;
+    line-height: 50px;
+    }
+    .base {
+        width: 160px;
+        border-radius: 15px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #AFAFAF;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .circle {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 85px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 10px;
+    }
+    .mt {
+        padding-left: 50px;
+    }
+    .base2 {
+        width: 160px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #AFAFAF;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    .circle2 {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 85px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 10px;
+    }
+    .backnumber-list {
+        width: 110px;
+        height: 37.5px;
+        line-height: 37.5px;
+        font-size: 14px;
+    }
+    .news-box-top {
+        height: 50px;
+    }
+    .news {
+        font-size: 14px;
+    }
+    .nav a {
+        font-size: 10px;
+    }
+}
